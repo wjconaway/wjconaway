@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+</head>
+<body>
+	<h2>Add</h2>
+    <form action="http://localhost:8080/add" method="POST" target="result">
+
+        <input id="addNum1" type="number" step="0.01" name="number1" placeholder="0">
+        <input id="addNum2" type="number" step="0.01" name="number2" placeholder="0">
+        <button id="addBut" type="submit">Add Numbers</button>
+        
+        
+    </form>
+
+    <iframe id="addOutput" name="result" frameborder="0">
+    </iframe>
+    
+    <hr>
+    
+    <h2>Subtract</h2>
+    <form action="http://localhost:8080/sub" method="POST" target="result1">
+
+        <input id="subNum1" type="number" step="0.01" name="number1" placeholder="0">
+        <input id="subNum2" type="number" step="0.01" name="number2" placeholder="0">
+        <button id="subBut" type="submit">Subtract Numbers</button>
+        
+        
+    </form>
+
+    <iframe id="subOutput" name="result1" frameborder="0">
+    </iframe>
+    
+    <hr>
+    
+    <h2>Multiply</h2>
+    <form action="http://localhost:8080/mul" method="POST" target="result2">
+
+        <input id="mulNum1" type="number" step="0.01" name="number1" placeholder="0">
+        <input id="mulNum2" type="number" step="0.01" name="number2" placeholder="0">
+        <button id="mulBut" type="submit">Multiply Numbers</button>
+        
+        
+    </form>
+
+    <iframe id="mulOutput" name="result2" frameborder="0">
+    </iframe>
+    
+    <hr>
+    
+    <h2>Divide</h2>
+    <form action="http://localhost:8080/div" method="POST" target="result3">
+
+        <input id="divNum1" type="number" step="0.01" name="number1" placeholder="0">
+        <input id="divNum2" type="number" step="0.01" name="number2" placeholder="0">
+        <button id="divBut" type="submit">Divide Numbers</button>
+        
+        
+    </form>
+
+    <iframe id="divOutput" name="result3" frameborder="0">
+    </iframe>
+    
+    <hr>
+</body>
+</html>
