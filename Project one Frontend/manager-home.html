@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { 
+          display: grid;
+          grid-template-areas: 
+            "header header header"
+            "article article article "
+            "footer footer footer";
+          grid-template-rows: 60px 1fr 60px;
+          grid-template-columns: 20% 1fr 15%;
+          grid-gap: 30px;
+          height: 100vh;
+          margin: 0;
+          }
+        header, footer, article, nav, div {
+          padding: 10px;
+          background: gold;
+        }
+        #welcome {
+          grid-area: header;
+        }
+        #pageFooter {
+          grid-area: footer;
+        }
+        #manager-grid-container { 
+          grid-area: article;      
+          }
+          #header{
+            font-weight: bold;
+          }
+        
+        </style>
+    
+    
+    <link rel="stylesheet" href="manager.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+</head>
+<body>
+
+    <div id="reimbursement-image-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+   
+
+    <header id="welcome">
+        <h1>Welcome Manager</h1>
+    </header>    
+    
+    
+    <article id="manager-grid-container">
+        <h2>Reimbursements</h2>
+
+        <table id="reimbursement-table">
+            <thead>
+                <tr>
+                    <div>
+                    <th>Employee ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>            
+                    <th>Amount</th>    
+                    <th>Status</th>
+                    <th>Description</th>
+                    <th>Author ID</th>
+                    <th>Receipt</th>
+                    <th>Approve</th>
+                    <th>Status Input</th>
+                    
+                </tr>
+            </thead>
+            <tbody>            
+            </tbody>
+        </table>
+    </article>
+    <footer  id="pageFooter">
+        <button id="logout">Logout</button>
+    </footer>
+   
+    
+
+    <script src="manager.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="employee.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        body { 
+          display: grid;
+          grid-template-areas: 
+            "header header header"
+            "article article article "
+            "footer footer footer";
+          grid-template-rows: 60px 1fr 60px;
+          grid-template-columns: 20% 1fr 15%;
+          grid-gap: 30px;
+          height: 100vh;
+          margin: 0;
+          }
+        header, footer, article, nav, div {
+          padding: 10px;
+          background: gold;
+        }
+        #welcome {
+          grid-area: header;
+        }
+        #pageFooter {
+          grid-area: footer;
+        }
+        #employee-grid-container { 
+          grid-area: article;      
+          }
+        
+        </style>
+    
+</head>
+<body>
+    <div id="reimbursement-image-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content"></div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    
+
+    <header id="welcome">
+        <h1> Welcome Employee </h1>
+    </header>
+    
+   <article id="employee-grid-container">
+    <h2>Reimbursements</h2>
+
+    <table id="reimbursement-table">        
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>amount</th>
+                <th>status</th>
+                <th>type</th>
+                <th>author</th>
+                <th>resolver</th>
+            </tr>
+        </thead>
+        <tbody>            
+        </tbody>
+    </table>
+    
+    <div id="reimbursement-subment-form">
+        <h2>Submit Reimbursements</h2>   
+
+        <div>
+            <label for="reimbursement-name">Reimbursement Name</label>
+            <input type="text" id="reimbursement-name" />
+        </div>
+        <div>
+            <label for="amount">Receipt Amount</label>
+            <input type="text" id="amount" />
+        </div>
+
+        <div>
+            <label for="reimbursement-file">Receipt Upload (JPEG, PNG, or GIF)</label>
+            <input type="file" id="reimbursement-file" />
+        </div>
+
+        <div>
+            <button id="submit-reimbursement-btn">Submit Reimbursement</button>
+        </div>
+    </div>        
+
+   </article>
+
+   <footer id=pageFooter>
+    <button id="logout">Logout</button>
+   </footer>
+    
+    
+    
+
+    <script src="employee.js"></script>
+</body>
+</html>
+
+<!--<div class="file-upload">
+    <input class="file-upload__input" type="file" name="myFile[]" id="myFile" multiple>
+    <button class="file-upload__button" type="button">Choose File(s)</button>
+    <span class="file-upload__label"></span>       
+  </div>
+-->
