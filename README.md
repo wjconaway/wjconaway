@@ -1,7 +1,5 @@
 
-  Hello my name is Willie Conaway and I am currently working as a Software Development Engineer in Test at Revature.  A little about my background is I was born 
-in Jacksonville FL, but I grew up in Valdosta, GA a small city in South Georgia and graduating from Valdosta High School.  After graduating high school, I join 
-the Navy where I served 11 years and did 3 tours while there including being part of the first Strike Group of Operation Enduring Freedom. 
+  Hello my name is Willie Conaway and I am currently working as a Software Development Engineer in Test at Revature. A little about my background is I was born in Jacksonville FL, but I grew up in Valdosta, GA a small city in South Georgia and graduating from Valdosta High School. After graduating high school, I join the Navy where I served 11 years as a Interior Communications Electrician and leaving as a 1st Class Petty Officer (E6). I were station on the 2 Aircraft Carriers the USS Theodore Roosevelt and The USS Harry S. Truman doing a total of  3 deployments (tours) in the Middle East, including being part of the first Strike Group of Operation Enduring Freedom. 
 
   After leaving the Navy I went to College in VA attending ECPI University receiving a BS in Electronic Engineering Technology.  Shortly after graduating college, I 
 decided to go in the Air Force Reserves where I served another 8 years but decided to get out due injuries, I endured from my time in the Navy getting worse. 
