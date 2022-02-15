@@ -5,7 +5,7 @@
 decided to go in the Air Force Reserves where I served another 8 years but decided to get out due injuries, I endured from my time in the Navy getting worse. 
 This also led me to make a career change looking for something less physical, but productive and fun in which I decided to be a Software Engineer. 
 
-  A little Fun Fact about me is I am one of the lowest rank members of the Navy to ever perform a Reenlistment Ceramony, reenlisting another sailor, 
+  A little Fun Fact about me is I am one of the lowest rank members of the Navy to ever perform a Reenlistment Ceramony, reenlisting junior sailor, 
 I was an E5 at the time and this something that is done by officers and Sr. enlisted personnel. I was also one of the lowest rank supervisors on 
 an Aircraft Carrier, I was an E4 at the time and supervisors are usually E6 and sometime E5 on an Aircraft Carrier an E4 supervisor is pretty much 
 unheard of there and it wasn't due lack of personnel. 
